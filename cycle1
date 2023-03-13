@@ -1,0 +1,8 @@
+def almost_double_factorial(n):
+    v=1
+    for i in range(n+1):
+        if i%2 == 1:
+            v=v*i
+        else:
+            pass
+    return v
