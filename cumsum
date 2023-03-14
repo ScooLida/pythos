@@ -1,0 +1,11 @@
+def cumsum_and_erase(A, erase = 1):
+    B = []
+    h=0
+    for i in A:
+        h= h+i
+        B.append(h)
+    while erase in B:
+        B.remove(erase)
+    return B
+F = (1,0,2,3,4)
+cumsum_and_erase(F)
