@@ -1,0 +1,21 @@
+
+g = '1 thousand devils', 'My name is 9Pasha', 'Room #125 costs $100', '888'
+def process(sentences):
+    k=list()
+    q=list()
+    n=list()
+    m = list()
+    for i in sentences:
+        l = i.split()
+        for p in l:
+                if p.isalpha() == True:
+                    k.append(p)
+                   
+                else:
+                    pass
+        m = ' '.join(k)
+        k=list()
+        n.append(m)
+        m=list()
+    return n
+process(g)
