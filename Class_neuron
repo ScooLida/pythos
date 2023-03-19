@@ -1,0 +1,17 @@
+# принимает на вход меры весов в и ф активации(ф(х)=х)
+#принимает входы нейрона, возвращает сумм(ви*хи)
+#возвращает х или none
+
+class Neuron:
+
+    def __init__(self, w, f = lambda x: x):
+        self.w = list()
+        self.x = None
+        self.f= f
+    def forward(self, x):
+        self.x = x
+        k = map(lambda q,a: q * a, x, w) 
+        l = sum(k)    
+        return self.f(l)
+    def backlog(self):
+            return self.x
