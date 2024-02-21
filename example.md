@@ -35,6 +35,8 @@ print()
 
 :+1:
 
+[emogi](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
 текст [^1]
 
 [^1]: ссылка
@@ -53,3 +55,5 @@ print()
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+
