@@ -24,4 +24,6 @@ print()
 
 [секс](https://github.com/pank-su)
 
-[папка](tasks)
+[папка tasks](tasks)
+
+![котик](https://dzen.ru/a/YNc251Ox33DCUuly)
