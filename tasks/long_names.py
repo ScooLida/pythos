@@ -10,7 +10,7 @@ for x in range(n):
     x = input()
     chlen.append(x)
 for i in chlen:
-    if len(i) < 10:
+    if len(i) < 11:
         print(i)
     else:
        print(f'{i[0]}{len(i)-2}{i[len(i)-1]}')
