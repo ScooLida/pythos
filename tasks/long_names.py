@@ -12,7 +12,7 @@ while True:
     else:
         break
 for i in chlen:
-    if len(i) < 9:
+    if len(i) < 10:
         print(i)
     else:
        print(f'{i[0]}{len(i)-2}{i[len(i)-1]}')
