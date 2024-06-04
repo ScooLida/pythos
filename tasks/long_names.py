@@ -5,12 +5,10 @@
 # Выведите n строк. В i строке должен находиться результат замены i-го слова из входных данных.
 
 chlen = []
-while True:
+n = int(input( )) #колво строк# :
+for x in range(n):
     x = input()
-    if x:
-        chlen.append(x)
-    else:
-        break
+    chlen.append(x)
 for i in chlen:
     if len(i) < 10:
         print(i)
