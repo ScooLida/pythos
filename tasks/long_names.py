@@ -6,7 +6,7 @@
 
 chlen = []
 while True:
-    x = input("hren: ")
+    x = input()
     if x:
         chlen.append(x)
     else:
