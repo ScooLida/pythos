@@ -4,13 +4,11 @@
 # Выходные данные
 # Выведите YES, если ребята смогут поделить арбуз на две части, каждая из которых весит четное число килограмм, и NO в противном случае.
 
-ves = int(input("вес арбуза: "))
-if 1 > ves  or ves > 100:
-    print("Error")
-elif ves % 2 == 1:
-    print("No")
+ves = int(input())
+if ves % 2 == 1 or ves == 2 :
+    print("NO")
 elif (ves - 2) % 2 == 1:
-    print("No")
-else :
-    print("Yes")
+    print("NO")
+else:
+    print("YES")
 
